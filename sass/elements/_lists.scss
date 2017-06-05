@@ -1,0 +1,23 @@
+//===== LISTS =====
+
+//Remember to @include mixin in style.scss
+@mixin lists {
+	ul,
+	ol {
+		padding-left: 18px;
+	}
+	li {
+		@include respond-to(md) {
+			font-size: 0.75em;
+			line-height: 1.3em;
+		}
+		@include respond-from(md) {
+			font-size: 0.8em;
+      line-height: 1.25em;
+    }
+		@include respond-from(lg) {
+			font-size: 0.95em;
+			list-style: disc;
+		}
+	}
+}
