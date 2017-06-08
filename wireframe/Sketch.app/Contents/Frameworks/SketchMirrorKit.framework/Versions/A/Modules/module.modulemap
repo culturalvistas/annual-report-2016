@@ -1,0 +1,6 @@
+framework module SketchMirrorKit {
+  umbrella header "SketchMirrorKit.h"
+
+  export *
+  module * { export * }
+}

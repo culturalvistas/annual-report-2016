@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreviewAtActualSize</key>
+	<string>§~</string>
+	<key>Zoom</key>
+	<string>zζя</string>
+	<key>InsertVector</key>
+	<string>vωм</string>
+	<key>InsertPencil</key>
+	<string>pπз</string>
+	<key>InsertText</key>
+	<string>tτе</string>
+	<key>InsertOval</key>
+	<string>oοщ</string>
+	<key>InsertRect</key>
+	<string>rρк</string>
+	<key>InsertArtboard</key>
+	<string>aαф</string>
+	<key>InsertSlice</key>
+	<string>sσы</string>
+	<key>InsertLine</key>
+	<string>lλд</string>
+	<key>InsertRoundRect</key>
+	<string>uθг</string>
+	<key>ToggleFill</key>
+	<string>fφа</string>
+	<key>ToggleBorder</key>
+	<string>bβи</string>
+</dict>
+</plist>
