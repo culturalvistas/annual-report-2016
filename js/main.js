@@ -33,176 +33,105 @@ $(window).load(function () {
   }
 
 	var introductionSlider = jQuery(".introduction").royalSlider({
-		keyboardNavEnabled: false,
-		addActiveClass: false,
 		navigateByClick: false,
 		fadeinLoadedSlide:false,
-		autoPlay: {
-			enabled: false,
-		},
-		loopRewind: false,
-		loop: false,
-		allowCSS3: true,
 		autoHeight: true,
-		autoScaleSlider: false,
 		imageScaleMode: 'none',
 		imageAlignCenter: false,
-		transitionSpeed: 500
+		video: {
+			youTubeCode: '<iframe src="https://www.youtube.com/embed/%id%?rel=1&autoplay=1&showinfo=0" frameborder="no"></iframe>'
+		}
 	}).data('royalSlider');
 
 	
 	var highlightsSlider = jQuery(".highlights").royalSlider({
-		keyboardNavEnabled: false,
-		slidesSpacing: 0,
-		addActiveClass: false,
 		navigateByClick: false,
 		fadeinLoadedSlide:false,
-		autoPlay: {
-			enabled: false,
-		},
-		loopRewind: false,
-		loop: false,
-		allowCSS3: true,
 		autoHeight: true,
-		autoScaleSlider: false,
 		imageScaleMode: 'none',
 		imageAlignCenter: false,
-		transitionSpeed: 500
+		video: {
+			youTubeCode: '<iframe src="https://www.youtube.com/embed/%id%?rel=1&autoplay=1&showinfo=0" frameborder="no"></iframe>'
+		}
 	}).data('royalSlider');
 
 	var eventsSlider = jQuery(".events").royalSlider({
-		keyboardNavEnabled: false,
-		slidesSpacing: 0,
-		addActiveClass: false,
 		navigateByClick: false,
 		fadeinLoadedSlide:false,
-		autoPlay: {
-			enabled: false,
-		},
-		loopRewind: false,
-		loop: false,
-		allowCSS3: true,
 		autoHeight: true,
-		autoScaleSlider: false,
 		imageScaleMode: 'none',
 		imageAlignCenter: false,
-		transitionSpeed: 500
+		video: {
+			youTubeCode: '<iframe src="https://www.youtube.com/embed/%id%?rel=1&autoplay=1&showinfo=0" frameborder="no"></iframe>'
+		}
 	}).data('royalSlider');
 
 	var spotlightSlider1 = jQuery(".spotlight1").royalSlider({
-		keyboardNavEnabled: false,
-		slidesSpacing: 0,
-		addActiveClass: false,
 		navigateByClick: false,
 		fadeinLoadedSlide:false,
-		autoPlay: {
-			enabled: false,
-		},
-		loopRewind: false,
-		loop: false,
-		allowCSS3: true,
 		autoHeight: true,
-		autoScaleSlider: false,
 		imageScaleMode: 'none',
 		imageAlignCenter: false,
-		transitionSpeed: 500
+		video: {
+			youTubeCode: '<iframe src="https://www.youtube.com/embed/%id%?rel=1&autoplay=1&showinfo=0" frameborder="no"></iframe>'
+		}
 	}).data('royalSlider');
 	
   if (is_mobile == true) { spotlightSlider1.removeSlide(1); }
 
 	var hostingSlider = jQuery(".hosting").royalSlider({
-		keyboardNavEnabled: false,
-		slidesSpacing: 0,
-		addActiveClass: false,
 		navigateByClick: false,
 		fadeinLoadedSlide:false,
-		autoPlay: {
-			enabled: false,
-		},
-		loopRewind: false,
-		loop: false,
-		allowCSS3: true,
 		autoHeight: true,
-		autoScaleSlider: false,
 		imageScaleMode: 'none',
 		imageAlignCenter: false,
-		transitionSpeed: 500
+		video: {
+			youTubeCode: '<iframe src="https://www.youtube.com/embed/%id%?rel=1&autoplay=1&showinfo=0" frameborder="no"></iframe>'
+		}
 	}).data('royalSlider');
 
 	var spotlightSlider2 = jQuery(".spotlight2").royalSlider({
-		keyboardNavEnabled: false,
-		slidesSpacing: 0,
-		addActiveClass: false,
 		navigateByClick: false,
 		fadeinLoadedSlide:false,
-		autoPlay: {
-			enabled: false,
-		},
-		loopRewind: false,
-		loop: false,
-		allowCSS3: true,
 		autoHeight: true,
-		autoScaleSlider: false,
 		imageScaleMode: 'none',
 		imageAlignCenter: false,
-		transitionSpeed: 500
+		video: {
+			youTubeCode: '<iframe src="https://www.youtube.com/embed/%id%?rel=1&autoplay=1&showinfo=0" frameborder="no"></iframe>'
+		}
 	}).data('royalSlider');
 
 	var cbyxSlider = jQuery(".cbyx").royalSlider({
-		keyboardNavEnabled: false,
-		slidesSpacing: 0,
-		addActiveClass: false,
 		navigateByClick: false,
 		fadeinLoadedSlide:false,
-		autoPlay: {
-			enabled: false,
-		},
-		loopRewind: false,
-		loop: false,
-		allowCSS3: true,
 		autoHeight: true,
-		autoScaleSlider: false,
 		imageScaleMode: 'none',
 		imageAlignCenter: false,
-		transitionSpeed: 500
+		video: {
+			youTubeCode: '<iframe src="https://www.youtube.com/embed/%id%?rel=1&autoplay=1&showinfo=0" frameborder="no"></iframe>'
+		}
 	}).data('royalSlider');
 
 	var photoSlider = jQuery(".photos").royalSlider({
-		keyboardNavEnabled: false,
-		slidesSpacing: 0,
-		addActiveClass: false,
 		navigateByClick: false,
 		fadeinLoadedSlide:false,
-		autoPlay: {
-			enabled: false,
-		},
-		loopRewind: false,
-		loop: false,
-		allowCSS3: true,
 		autoHeight: true,
-		autoScaleSlider: false,
 		imageScaleMode: 'none',
 		imageAlignCenter: false,
-		transitionSpeed: 500
+		video: {
+			youTubeCode: '<iframe src="https://www.youtube.com/embed/%id%?rel=1&autoplay=1&showinfo=0" frameborder="no"></iframe>'
+		}
 	}).data('royalSlider');
 
 	var cvfellowsSlider = jQuery(".cvfellows").royalSlider({
-		keyboardNavEnabled: false,
-		slidesSpacing: 0,
-		addActiveClass: false,
 		navigateByClick: false,
 		fadeinLoadedSlide:false,
-		autoPlay: {
-			enabled: false,
-		},
-		loopRewind: false,
-		loop: false,
-		allowCSS3: true,
 		autoHeight: true,
-		autoScaleSlider: false,
 		imageScaleMode: 'none',
 		imageAlignCenter: false,
-		transitionSpeed: 500
+		video: {
+			youTubeCode: '<iframe src="https://www.youtube.com/embed/%id%?rel=1&autoplay=1&showinfo=0" frameborder="no"></iframe>'
+		}
 	}).data('royalSlider');
 	
 	if(is_mobile == true) {	
