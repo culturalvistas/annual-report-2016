@@ -677,18 +677,17 @@ p.caption2 {
     .spotlight1 .button {
       width: 280px; } }
 
-#financials .restack {
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+@media (max-width: 550px) {
+  .restack {
+    display: block; } }
+.restack .col-2 {
+  padding-top: 20px; }
   @media (max-width: 550px) {
-    #financials .restack {
-      display: block; } }
+    .restack .col-2 {
+      width: 100%; } }
   @media (min-width: 550px) {
-    #financials .restack .col-2 {
-      width: 49%; } }
+    .restack .col-2 {
+      width: 48%; } }
 
 .connect h2, .connect p {
   text-align: center;
