@@ -4,10 +4,10 @@
 @mixin connect {
 	.connect {
 		h2, p {
-			color: white;
 			text-align: center;
+			color: white;
 		}
-		.flex-row {
+		.row-flex {
 			text-align: center;
 			
 			@include respond-to(lg) {
@@ -24,9 +24,9 @@
 		.linkd,
 		.insta,
 		.youtu {
-			margin-top: 10px;
-			width: 50px;
 			height: 50px;
+			width: 50px;
+			margin-bottom: 10px;
 			display: inline-block;
 			
 			&:hover {

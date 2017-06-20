@@ -5,16 +5,17 @@
 	.button {
 		transition: $hover-bg;
 		font-size: 0.95em;
-		color: white;
 		text-decoration: none;
+		color: white;
 		padding: 10px 20px;
+		display: inline-block;
 		cursor: pointer;
 		
 		&:active,
 		&:focus,
 		&:hover {
-			color: white;
 			text-decoration: none;
+			color: white;
 		}
 	}
 	.button-blue {
@@ -82,20 +83,12 @@
 			background-color: darken(white, 9%);
 		}
 	}
-	.padding-for-button { //add to button's container
-		padding-top: 30px;
-		padding-bottom: 30px;
+	p.button-container {
+		padding-top: 20px;
+		padding-bottom: 20px;
 		
 		@include respond-to(md) {
 			text-align: center;
-		}
-	}
-	.spotlight1 p.stacked-buttons {
-		@include respond-to(md) {
-			margin-bottom: 10px;
-		}
-		@include respond-from(md) {
-			margin-bottom: 5px;
 		}
 	}
 }

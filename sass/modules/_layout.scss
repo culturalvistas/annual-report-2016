@@ -78,54 +78,53 @@ $breakpoints: (
 		padding-top: 40px;
 		padding-bottom: 40px;
   }
+	
 	.flex {  //flexbox
 		display: -webkit-flex;
 		display: -ms-flexbox;
 		display: flex;
+	}
+	.row-flex {
+		@extend .flex;
+		-webkit-flex-direction: row;
+		flex-direction: row;
 		-webkit-justify-content: space-between;
 		-ms-flex-pack: justify;
-		justify-content: space-between;
-	}
-	.flex-row {
-		@extend .flex;
-		flex-direction: row;
 		justify-content: space-between;
 		
 		@include respond-to(md) {
 			display:block;
 		}
 	}
-	.flex-column {
+	.col-flex {
 		@extend .flex;
+		-webkit-flex-direction: column;
 		flex-direction: column;
+		-webkit-justify-content: center;
 		justify-content: center;
 		
 		@include respond-to(md) {
 			display: block;
 		}
 	}
-	.column-2 {
+	.col-2 {
 		@include respond-from(md) {
 			width: 46.5%;
 		}
 	}
-	.column-3 {
+	.col-3 {
 		@include respond-from(md) {
 			width: 30.5%;
 		}
 	}
-	.hide-from-md {
-		@include respond-from(md) {
-			display: none !important;
-		}
-	}	
-	.hide-to-md {
+	
+	.hide-until-md {
 		@include respond-to(md) {
 			display: none !important;
 		}
 	}
-	.hide-to-lg {
-		@include respond-to(lg) {
+	.hide-from-md {
+		@include respond-from(md) {
 			display: none !important;
 		}
 	}

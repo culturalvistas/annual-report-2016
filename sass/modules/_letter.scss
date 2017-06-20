@@ -28,8 +28,8 @@
 		}
 	}
 	.letter .executive-staff p {
-		padding: 0;
 		text-align: center;
+		padding: 0;
 		
 		@media (max-width: 500px) {
 			text-align: left;
@@ -37,10 +37,10 @@
 	}
 	.letter p.staff-footer {
 		font-size: 0.6em;
-		clear: both;
+		text-align: center;
 		padding-top: 55px;
 		padding-bottom: 5px;
-		text-align: center;
+		clear: both;
 		
 		@include respond-to(md){
 			display: none;

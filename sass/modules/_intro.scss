@@ -17,11 +17,11 @@
 		}
 	}
 	.blue-bar-graph {
+		@extend .flex;
 		font-size: 1.2em;
 		font-weight: 600;
 		color: $cv-blue;
 		height: 25px;
-		display: flex;
 	}
 	.intro-blue-bar {
 		background-color: $cv-blue;

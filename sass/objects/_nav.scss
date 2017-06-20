@@ -8,9 +8,9 @@
 		}
 	}
 	.nav {
-		position: relative;
     padding-top: 0;
     padding-bottom: 0;
+		position: relative;
 		
 		@include respond-to(md) {
 			height: 110px;	//based on cv website
@@ -21,9 +21,9 @@
 		}
 
 		li {
-			list-style-type: none;
 			font-weight: 400;
 			font-size: 1em;
+			list-style-type: none;
 		}
 	}
 	.nav-logo {

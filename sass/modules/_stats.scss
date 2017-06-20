@@ -3,9 +3,8 @@
 //Remember to @include mixin in style.scss
 @mixin stats {
 	.stats {
-		.padding-for-button,
-    .column-2,
-		.column-3,
+    .col-2,
+		.col-3,
     p {
 			text-align: center;
 		}

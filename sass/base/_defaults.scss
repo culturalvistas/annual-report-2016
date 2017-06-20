@@ -11,6 +11,7 @@ $footer-bg-color: 			$cv-dark-gray;
 //Variables - Theme Font
 $base-font-color:				$cv-warm-gray;
 $base-font-family:			$cv-font-stack;
+$cond-font-family:			$cv-font-stack-cond;
 $base-font-size:				14pt;
 $base-line-height:			1.35em;
 $base-font-weight:			300;
@@ -62,13 +63,4 @@ $hover-text:						color 0.2s ease-out;
   .accent-bg {
     background-color: $accent-color;
   }
-  .centered {
-    text-align: center;
-  }
-	.blue {
-		color: $cv-blue;
-	}
-	.cond {
-		font-family: $cv-font-stack-cond;
-	}
 }
