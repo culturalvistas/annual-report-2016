@@ -4,8 +4,20 @@
 @mixin financials {
 	#financials {
 		.restack {
+			-webkit-flex-direction: row;
+			flex-direction: row;
+			-webkit-justify-content: space-between;
+			-ms-flex-pack: justify;
+			justify-content: space-between;
+			
 			@media (max-width: 550px) {
 				display:block;
+			}
+			
+			.col-2 {
+				@media (min-width: 550px) {
+					width: 49%;
+				}
 			}
 		}
 	}
